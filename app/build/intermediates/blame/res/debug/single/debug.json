@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\Demo18_Widget\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_icon.png.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\Demo18_Widget\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\Demo18_Widget\\app\\build\\intermediates\\res\\merged\\debug\\xml_my_widget_provider.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\Demo18_Widget\\app\\src\\main\\res\\xml\\my_widget_provider.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\Demo18_Widget\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon.png.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\Demo18_Widget\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\Demo18_Widget\\app\\build\\intermediates\\res\\merged\\debug\\xml_trial_widget.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\Demo18_Widget\\app\\src\\main\\res\\xml\\trial_widget.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\Demo18_Widget\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\Demo18_Widget\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\Demo18_Widget\\app\\build\\intermediates\\res\\merged\\debug\\layout_widget_ui.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\Demo18_Widget\\app\\src\\main\\res\\layout\\widget_ui.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\Demo18_Widget\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon.png.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\Demo18_Widget\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
+    }
+]

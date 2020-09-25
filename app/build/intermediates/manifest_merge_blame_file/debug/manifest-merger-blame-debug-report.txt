@@ -1,0 +1,59 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.uuu"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->C:\Users\Admin\AndroidStudioProjects\Demo18_Widget\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Admin\AndroidStudioProjects\Demo18_Widget\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Admin\AndroidStudioProjects\Demo18_Widget\app\src\main\AndroidManifest.xml:7:5-22:19
+12        android:debuggable="true"
+13        android:extractNativeLibs="false"
+14        android:icon="@drawable/icon"
+14-->C:\Users\Admin\AndroidStudioProjects\Demo18_Widget\app\src\main\AndroidManifest.xml:7:18-47
+15        android:label="@string/app_name"
+15-->C:\Users\Admin\AndroidStudioProjects\Demo18_Widget\app\src\main\AndroidManifest.xml:7:48-80
+16        android:testOnly="true" >
+17        <activity
+17-->C:\Users\Admin\AndroidStudioProjects\Demo18_Widget\app\src\main\AndroidManifest.xml:8:9-14:20
+18            android:name="com.uuu.WidgetExerciseActivity"
+18-->C:\Users\Admin\AndroidStudioProjects\Demo18_Widget\app\src\main\AndroidManifest.xml:8:19-57
+19            android:label="@string/app_name" >
+19-->C:\Users\Admin\AndroidStudioProjects\Demo18_Widget\app\src\main\AndroidManifest.xml:9:19-51
+20            <intent-filter>
+20-->C:\Users\Admin\AndroidStudioProjects\Demo18_Widget\app\src\main\AndroidManifest.xml:10:13-13:29
+21                <action android:name="android.intent.action.MAIN" />
+21-->C:\Users\Admin\AndroidStudioProjects\Demo18_Widget\app\src\main\AndroidManifest.xml:11:17-69
+21-->C:\Users\Admin\AndroidStudioProjects\Demo18_Widget\app\src\main\AndroidManifest.xml:11:25-66
+22
+23                <category android:name="android.intent.category.LAUNCHER" />
+23-->C:\Users\Admin\AndroidStudioProjects\Demo18_Widget\app\src\main\AndroidManifest.xml:12:17-77
+23-->C:\Users\Admin\AndroidStudioProjects\Demo18_Widget\app\src\main\AndroidManifest.xml:12:27-74
+24            </intent-filter>
+25        </activity>
+26
+27        <receiver android:name="com.uuu.MyWidgetProvider" >
+27-->C:\Users\Admin\AndroidStudioProjects\Demo18_Widget\app\src\main\AndroidManifest.xml:15:9-20:20
+27-->C:\Users\Admin\AndroidStudioProjects\Demo18_Widget\app\src\main\AndroidManifest.xml:15:19-50
+28            <meta-data
+28-->C:\Users\Admin\AndroidStudioProjects\Demo18_Widget\app\src\main\AndroidManifest.xml:16:13-121
+29                android:name="android.appwidget.provider"
+29-->C:\Users\Admin\AndroidStudioProjects\Demo18_Widget\app\src\main\AndroidManifest.xml:16:67-108
+30                android:resource="@xml/my_widget_provider" />
+30-->C:\Users\Admin\AndroidStudioProjects\Demo18_Widget\app\src\main\AndroidManifest.xml:16:24-66
+31
+32            <intent-filter>
+32-->C:\Users\Admin\AndroidStudioProjects\Demo18_Widget\app\src\main\AndroidManifest.xml:17:13-19:29
+33                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+33-->C:\Users\Admin\AndroidStudioProjects\Demo18_Widget\app\src\main\AndroidManifest.xml:18:17-91
+33-->C:\Users\Admin\AndroidStudioProjects\Demo18_Widget\app\src\main\AndroidManifest.xml:18:25-81
+34            </intent-filter>
+35        </receiver>
+36    </application>
+37
+38</manifest>
